@@ -1,0 +1,56 @@
+<!--si ponemos ! + enter,hace la estructura base de html-->
+<!DOCTYPE html><!--lenguaje de la pagina-->
+<html lang="en">
+<head> <!--Es configuracion de la pagina-->
+    <meta charset="UTF-8"> <!--Codifica el lenguaje que se vea en la pagina,de acuerdo al idioma o latitud-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--viewport:Esto se ve en maquetacion web,permite que la pagina web se vea en todo tipo de dispositivos
+    content:que se ajuste al ancho de la pantalla6-->
+    <title>Clase 1 - Fundamentos Web</title><!--esto es lo que va aparecer en el titulo de la pagina web-->
+    <!--PARA INCORPORAR CSS EXTERNO, SE HIPERENLAZA EL ARCHIVO CSS-->
+    <!--LINKEA EL ARCHIVO CSS CON ESTE HTML-->
+    <link rel="stylesheet" href="css/master.css"><!--href, apunta a donde esta el archivo css que necesito usar-->
+    <style>
+        /*CSS interno*/
+        /*ES TODO SE PONE EN LE  HEAD DEL HTML, ASI SE APLICA A TODA LA PAGINA*/
+        p
+        {
+            background-color: tomato;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!--Titulos y subtitulos desde h1 a h6, solo hasta 6 porque asi lo establecio el creador de html-->
+    <!--CSS PODEMOS APLICARLO 1)EN LINEA-2)INTERNO-3)EXTERNO 1,2,3 las prioridades de donde busca para modificar-->
+    <!--Aplicacion de css al titulo en la linea por ej <h1 style=color: red;> texto </h1>-->
+    <h1 style="color: red; text-align: center;">Bienvenidos a nuestra página web</h1><!--Solo un h1 para hacer que los motores de busqueda busquen mejor,y seria el titulo-->
+    <!--Puedo tener varios h2,h3,h4,h5,h6 solo un h1 el resto si puedo repetir, para lograr la misma letra entre titulos-->
+    <hr><!--Crea una linea negra en la pagina-->
+    <br><!--Esta etiqueta da un salto de linea,y se puede escribir en esa linea, no se cierra esta etiqueta-->
+    <p>
+        <!--lorem + enter te da como un parrafo de prueba,algo standar-->
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure placeat iusto ratione expedita! Molestiae itaque dolores assumenda voluptatibus officiis at, iste, fugit quas inventore ex optio corrupti a temporibus commodi!
+    </p><!--Etiqueta para armar parrafos-->
+    <h2>Aquí podrá encontrar muchos productos para su hogar</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fugit voluptatem alias suscipit. Animi molestias similique nemo eveniet rerum dolor. Rem eum quasi quaerat non? Aperiam quas tempora corrupti, ipsam distinctio molestiae quisquam modi sed? Cum, vel similique. Quibusdam voluptates delectus consequuntur esse quidem distinctio rem eaque? Quaerat beatae eligendi aliquam quidem, laboriosam repellat? Quod placeat voluptates dicta, veniam aliquid, adipisci, iure exercitationem corporis animi quam itaque laboriosam suscipit ipsum beatae facere consequuntur illum debitis nobis rem eos accusantium id ad excepturi! Aliquam minus iste commodi illo tempora eveniet quo mollitia ab, voluptates sit odit esse beatae neque, ipsam quisquam!        
+    </p><!--Si ponemos lorem100 te crea un texto standar de 100 palabras por ej -->
+    <h2>Lista de nuestros productos</h2>
+    <!--Si vamos a crear listas en las paginas, se pueden hacer listas ordenadas o desordenadas-->
+    <ul><!--Listas desordenadas, no tiene un orden especifico, se usa etiqueta<ul> </ul>-->
+        <!--Los items de la lista se ponen con la etiqueta <li> </li>-->
+        <li>Heladeras</li>
+        <li>Lavarropas</li>
+        <li>Televisor</li>
+        <li>Cocinas</li>
+    </ul>
+    <ol><!--Listas ordenadas, tienen un orden especifico, se usa etiqueta<ol> </ol>-->
+        <!--Los items de la lista se ponen con la etiqueta <li> </li>-->
+        <li>Heladeras</li>
+        <li>Lavarropas</li>
+        <li>Televisor</li>
+        <li>Cocinas</li>
+    </ol>
+
+</body>
+</html>
