@@ -1,0 +1,29 @@
+.titulo /*las clases van con punto adelante #se usa para id*/
+{
+    /*Propiedad: Valor*/
+    font-size: 40px; /*Medidas absolutas*/
+    font-family: Arial, Helvetica, sans-serif;/*El tipo de letra que usaria*/
+    text-align: center;/*Donde va alineado el texto*/
+    color: white;
+    background-color: tomato;
+    height: 80px;
+    padding-top: 20px;/*padding es relleno, el top es en la parte superior*/
+    border: 5px red solid;/*ancho de la linea, color, forma*/
+   
+}
+
+.subTitulo
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.parrafo
+{
+    font-size: 20px;/*El tamaño de la fuente por defecto de los parrafos es de 16 pixeles (px)*/
+    text-align: justify;
+    color: white;
+    background-color: teal;
+    padding: 20px;
+}

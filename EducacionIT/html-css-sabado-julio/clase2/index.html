@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2 - Fundamentos Web</title>
+    <!--Tenemos que vincular el html con el css-->
+    <link rel="stylesheet" href="css/master.css">
+    <!--CSS INTERNO
+    <style>
+        h1
+        {
+            font-size: 20px; /*Medidas absolutas*/
+            font-family: Arial, Helvetica, sans-serif;/*El tipo de letra que usaria*/
+            text-align: center;/*Donde va alineado el texto*/
+            color: white;
+            background-color: tomato;
+        }
+    </style>-->
+</head>
+<body>
+    <!--Las paginas web anteriormente se creaban haciendo uso de las tabalas, y adentro había celdas
+    Luego se usó y hasta el día de hoy se usan "cajas" (div) div=caja
+    Cajas semanticas: identifican para que se usan esas cajas-->
+    <main>
+        <header>
+            <figure>
+                <!--Aca podria poner una imagen por ej-->
+                <a href="index.html"> <!--Le puedo poner una direccion de mail al elemento que quiera, en esta caso la imagen-->
+                                      <!--href, es el vinculo a la pagina que se tiene que redirigir-->
+                    <img src = "img/logo-educacionit.png" alt = "Logo de EducacionIT"> <!--Referencia relativa, una ruta al archivo de mi pc-->
+
+                </a>
+                
+                <!--Referencia absoluta, aca le pasariamos un link de un pagina por ej
+                <img src = "https://cdn.educacionit.com/images/logo-educacionit.png" alt = "Logo de EducacionIT">
+                la linea de codigo que dice alt: es una descripción de la imagen que estamos poniendo-->
+            </figure>
+            <nav>
+                <!--Aca iria una barra de navegacion--> <!--Es recomendable poner los nav con UL o LI-->
+                <a href = "index.html">Inicio</a>
+                <a href = "nosotros.html">Nosotros</a> <!--Estas haciendo un llamado a un archivo html,que ya creamos con la pagina correpondiente-->
+                <a href = "contacto.html">Contacto</a>
+
+
+            </nav>
+        </header>
+        <section>
+         <!--Dentro de esta seccion puedo tener articulos, por ej una imagen, mapas, contacto-->
+         <!--<h1 style="color: white; background-color: tomato">-->
+         <h1 class="titulo">Bienvenido a nuestro sitio web</h1>
+         <h2 class = "subTitulo">Tenemos las mejores bicicletas</h2>
+         <article>
+             <!--Aca podemos poner las cosas que queramos, imagenes-->
+         </article> 
+         
+        </section>
+        <section>
+            <p class = "parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero id iure suscipit dignissimos earum consequuntur, quas quia quod nesciunt illo reprehenderit culpa, et rerum numquam molestias distinctio similique, nobis voluptatum. Rerum quibusdam totam minus soluta voluptas incidunt dolorem reprehenderit labore. Natus atque illo tempore possimus laboriosam ex sapiente necessitatibus, aut doloribus aperiam odio molestiae quisquam dignissimos, commodi quos earum quasi temporibus unde totam quidem ratione quia beatae provident. Vitae aliquam dolore, fugit repudiandae, rem soluta quisquam laboriosam veniam recusandae qui voluptatibus esse eum sint, commodi voluptate! Alias non asperiores commodi inventore beatae quo architecto. Necessitatibus autem repudiandae officia temporibus quisquam sint illum eligendi nulla quaerat, et rerum consectetur laudantium, minima adipisci atque fugiat quis impedit numquam reprehenderit voluptatibus maiores sunt? Aliquam nostrum voluptas, earum sunt dolorem facere nam hic, error repudiandae in libero cumque. Voluptate aliquam rem explicabo dolores culpa facilis cupiditate? Praesentium ducimus nobis optio dignissimos minus repudiandae iste vel amet nulla quis maxime beatae natus nesciunt rerum architecto ut quae impedit officia, voluptas deserunt sunt placeat repellat iusto? Laboriosam dolorum aperiam veritatis atque enim sit doloremque aut hic! Ipsa commodi pariatur repudiandae obcaecati dolorem cum libero quas facere est atque ea, repellat nisi recusandae molestias quo excepturi velit?</p>
+        </section>  
+        <footer> <!--Pie de pagina-->
+            
+        </footer>
+
+    </main>
+
+    
+</body>
+</html>
